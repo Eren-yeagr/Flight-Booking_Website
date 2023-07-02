@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: rgba(210, 219, 250, 0.194);
+    width: 100%;
+    height: 44px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 30px;   
+}
+#navbar ul li {
+    list-style: none;
+    margin-top: 12px;  
+}
+#navbar ul #lang {
+    display: flex; 
+    align-items: center;
+    justify-content: right;
+    width: 80%;
+   margin: 0px;
+}
+
+#navbar ul #lang a:hover{
+    background-color: white;
+    color: red;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: grey;
+    font-size: 13px;
+    font-weight: bolder;
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bolder;
+    
+}
+/* second-nav */
+
+#sec-nav{
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+}
+#sec-nav #logo img{
+    height: 60px;
+    width: 60px;
+}
+#sec-nav #logo {
+    margin: 0px 5px;
+    margin-left:  32px;
+}
+#sec-nav .name {
+    margin-right:  75px;
+}
+#sec-nav .name h1 {
+  font-size: 1.2rem;
+}
+#sec-nav .name h4 {
+  font-size: 0.6rem;
+  color: grey;
+  margin-top: 4px;
+}
+#sec-nav .date-time {
+    margin: 0px 12px;
+}
+#sec-nav .date-time h1 {
+    font-size: 1.2rem;
+}
+#sec-nav .date-time h4 {
+    font-size: 0.6rem;
+    color: grey;
+    margin-top: 4px;
+}
+#sec-nav .weather {
+    margin: 0px 12px;
+}
+#sec-nav .weather h1{
+    font-size: 1.2rem;
+}
+#sec-nav .weather h4 {
+    font-size: 0.6rem;
+    color: grey;
+    margin-top: 4px;
+}
+#sec-nav .search{
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#sec-nav .search img{
+    height: 30px;
+    width: 30px;
+    margin-left: 4px;
+
+}
+#sec-nav .search input{
+    width: 52%;
+    height: 34px;
+    padding: 0px 12px;
+    box-shadow: 1px 4px 15px -5px grey;
+}
+
+/* THIRD NAV */
+
+#third-nav{
+    background-color: rgb(0, 34, 72);
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+#third-nav ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 30px;   
+}
+#third-nav ul li {
+    list-style: none;
+    /* margin-top: 12px;   */
+}
+#third-nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    
+}
+#third-nav ul li a:hover{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 50pxpx;
+    
+}
+#third-nav .account{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 25%;
+}
+#third-nav .account li{
+    list-style: none;
+}
+#third-nav .account li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 12px;
+}
+
+
+/* second section */
+
+#second{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 440px;
+    width: 100%;
+    background: url(../static/img/airport1.jpg) no-repeat center center/cover;
+}
+
+#second .heading h1{
+   
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 3rem;
+    margin-top: 90px;
+    color: white;
+}
+#second .heading h4{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: white;
+
+}
+#second  button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 70px;
+    width: 11%;
+    font-size: 15px;
+    background-color: rgb(209 69 59);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#second ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 106px;
+
+}
+#second ul li{
+    list-style: none;
+    margin: -3px 1px;
+   
+}
+
+#second ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    padding: 20px 90px;
+    background-color: white;
+  box-shadow:   0px 9px 10px 0px grey;
+   
+}
+#second ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:rgba(0, 34, 72, 0.66);
+ 
+}
+
+/* third section */
+
+#third{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 235px;
+    
+}
+#third .from{
+    padding-right: 20px;
+}
+#third .from h6{
+    color: grey;
+}
+#third .to h6{
+    color: grey;
+}
+#third .from input{
+    padding: 5px 0px;
+    border: none;
+    width: 200px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+#third .to input{
+    padding: 5px 0px;
+    border: none;
+    width: 200px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+#third .to{
+    padding-right: 20px;
+}
+#third .btns{
+    padding-right: 20px;
+    
+}
+#third .btns button{
+   padding: 10px 20px;
+   cursor: pointer;
+   box-shadow: 0px 9px 10px 0px grey
+   
+}
+#third .btns button:hover{
+    border: 2px solid  rgba(0, 34, 72); 
+    padding: 10px 20px;
+   font-weight: bold;
+   color: rgba(0, 34, 72);
+  
+}
+#third .find-flight{
+    padding-right: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color:rgba(0, 34, 72) ;
+    color: white;
+    box-shadow: 0px 9px 10px 0px grey
+
+}
+#third .find-flight:hover{
+    padding-right: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color:rgb(255, 255, 255) ;
+    color: rgba(0, 34, 72);
+    border: 2px solid  rgba(0, 34, 72);
+}
+
+
+
+#fourth-sec{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3fafab5;
+    margin-top: 20px;
+    height: 500px;
+
+}
+#fourth-sec .heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 0px;
+}
+#fourth-sec .heading h4{
+    font-size: 1.6rem;
+    margin-right: 190px;
+}
+#fourth-sec .heading h6{
+    font-size: 1rem;
+    color: red;
+}
+
+#fourth-sec .cards{
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 150px;
+}
+#fourth-sec .cards .item{
+    width: 200px;
+    height: 370px;
+    background-color: white;
+    box-shadow: 1px 5px 5px 0px grey;
+}
+#fourth-sec .cards .item img{
+    height: 190px;
+    width: 200px;
+}
+#fourth-sec .cards .item .content img{
+    height: 35px;
+    width: 105px;
+    margin-right: 13px;
+}
+#fourth-sec .cards .item .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#fourth-sec .cards .item .content h4{
+margin-top: 12px;
+font-size: 1.2rem;
+}
+#fourth-sec .cards .item .content h6{
+color: grey;
+font-size: 1rem;
+}
+#fourth-sec .cards .item button{
+    border: none;
+    outline: none;
+    padding: 4px;
+    /* margin-top: 8px; */
+    width: 59%;
+    font-size: 15px;
+    background-color: rgb(209 69 59);
+    /* border-radius: 5px; */
+    color: white;
+    cursor: pointer;
+    margin: 20px 42px;
+    box-shadow: 0px 3px 5px grey
+}
+
+
+
+#fifth-sec{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #f3fafab5; */
+    margin-top: 20px;
+    height: 485px;
+}
+#fifth-sec .heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 0px;
+}
+#fifth-sec .heading h4{
+    font-size: 1.6rem;
+    margin-right: -25px;
+}
+#fifth-sec .heading h6{
+    font-size: 1rem;
+    color: red;
+}
+#fifth-sec .cards{
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 150px;
+}
+#fifth-sec .cards .item{
+    width: 298px;
+    height: 330px;
+    background-color: white;
+    box-shadow: 1px 5px 5px 0px grey;
+}
+#fifth-sec .cards .item img{
+    height: 190px;
+    width: 298px;
+}#fifth-sec .cards .item .content{
+    margin: 15px;
+}
+#fifth-sec .cards .item .content h4{
+   font-size: 1rem;
+  margin-bottom: 5px;
+}
+#fifth-sec .cards .item .content p{
+   font-size: .8rem;
+   color: grey;
+   font-style: italic;
+}
+#fifth-sec .cards .item .content h6{
+    margin-top: 9px;
+    font-size: .8rem;
+    color: red;
+}
+
+#sixth-sec::before{
+    content: "";
+    width: 100%;
+    height: 610px;
+    opacity: .2;
+    position: absolute;
+    z-index: -1;
+    background: url(../static/img/airport.jpg) no-repeat center center/cover;
+}
+#sixth-sec .contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 610px;
+}
+#sixth-sec .contain .news{
+    width:25%;
+    
+    margin-top: 40px;
+
+}
+
+#sixth-sec .contain .news h1{
+    font-size: 2rem;
+    margin: 30px 0px;
+    
+
+}
+#sixth-sec .contain .news p{
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin: 12px 0px;
+
+}
+#sixth-sec .contain .news h3{
+    color: rgb(199, 3, 3);
+    margin-top: 30px;
+}
+#sixth-sec .contain .contact h1 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+#sixth-sec .contain .contact .item {
+    padding: 18px 0px;
+}
+#sixth-sec .contain .contact .item h5{
+    padding-bottom: 10px;
+}
+#sixth-sec .contain .contact .item h6{
+    
+    color: red;
+}#sixth-sec .contain .contact h3{
+    color: rgb(199, 3, 3);
+    margin-top: 30px;
+}
+
+
+
+#seventh-sec{
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+    background-color:rgb(0, 34, 72) ;
+}
+#seventh-sec .logo img{
+    height: 60px;
+    width: 60px;
+}
+#seventh-sec .logo {
+    margin: 0px 5px;
+    margin-left:  32px;
+}
+#seventh-sec .name {
+    margin-right:  75px;
+}
+#seventh-sec .name h1 {
+  font-size: 1.2rem;
+  color: white;
+}
+#seventh-sec .name h4 {
+  font-size: 0.6rem;
+  color: rgb(255, 255, 255);
+  margin-top: 4px;
+}
+
+#seventh-sec ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 250px;   
+}
+#seventh-sec ul li {
+    list-style: none;
+    /* margin-top: 12px;   */
+}
+#seventh-sec ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    
+}
+#seventh-sec ul li a:hover{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 50pxpx;
+    
+}

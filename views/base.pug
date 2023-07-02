@@ -1,0 +1,71 @@
+doctype html
+html
+  head
+    title TICKET BOOKING
+    block scripts
+    block style
+
+  body
+
+     nav#navbar.top 
+        ul 
+            li #[a(href="/") HOME ]
+            li #[a(href="/") ABOUT]
+            li #[a(href="/") HELP]
+            li #[a(href="/contact") CONTACT]
+
+            div#lang
+                li #[a(href="/") EN]     
+                li #[a(href="/") ES]     
+     nav#sec-nav 
+        div#logo
+            img(src="../static/img/logo.jpg", alt="logo")
+        div.name
+                h1 TOLEDO 
+                h4 AIRPORT 
+        div.date-time
+            h1 12:35
+            h4 Sat ,25 Aug 
+        div.weather
+                
+                h1  25'C
+                h4 Weather in Toledo
+        div.search
+            img(src="../static/img/search.png", alt="")
+            input(type="text" name="search" placeholder="Search by destination, airline number,city or airline") 
+
+     nav#third-nav 
+        ul 
+            li #[a(href="/") FLIGHTS ]
+            li #[a(href="/") TRAVEL GUIDE]
+            li #[a(href="/") TERMINAL   ]
+            li #[a(href="/") AIRLINE]
+            li #[a(href="/") PACKAGE]
+            li #[a(href="/") TRANSPORTATION ]
+            li #[a(href="/") SERVICES]
+            li #[a(href="/") HOTELS]
+            li #[a(href="/") DUTY FREE]
+            li #[a(href="/") CURRENCY EXCHANGE]
+            li #[a(href="/") AIRPORT MAP]
+
+        div.account
+            li #[a(href="/") SIGN IN ]
+            li #[a(href="/") SIGN UP ]
+
+
+     block content
+
+     section#seventh-sec 
+        div.logo
+            img(src="../static/img/logo.jpg", alt="logo")
+        div.name
+                h1 TOLEDO 
+                h4 AIRPORT 
+        ul 
+            li #[a(href="/") FLIGHTS ]
+            li #[a(href="/") TRAVEL GUIDE]
+            li #[a(href="/") TERMINAL   ]
+            li #[a(href="/") AIRLINE]
+            li #[a(href="/") PACKAGE]
+            li #[a(href="/") TRANSPORTATION ]
+            li #[a(href="/") SERVICES]  

@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin: 12px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.myform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myInput{
+    width: 632px;
+    padding: 11px;
+    margin: 12px;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    padding: 6px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid darkred;
+    color: white;
+    background-color: #930f0f;
+    cursor: pointer;
+    margin-top: 20px;  
+}
+.container{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}

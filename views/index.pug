@@ -1,0 +1,210 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul 
+            li #[a(href="/") HOME ]
+            li #[a(href="/") ABOUT]
+            li #[a(href="/") HELP]
+            li #[a(href="/") CONTACT]
+
+            div#lang
+                li #[a(href="/") EN]     
+                li #[a(href="/") ES]     
+    nav#sec-nav 
+        div#logo
+            img(src="../static/img/logo.jpg", alt="logo")
+        div.name
+                h1 TOLEDO 
+                h4 AIRPORT 
+        div.date-time
+            h1 12:35
+            h4 Sat ,25 Aug 
+        div.weather
+                
+                h1  25'C
+                h4 Weather in Toledo
+        div.search
+            img(src="../static/img/search.png", alt="")
+            input(type="text" name="search" placeholder="Search by destination, airline number,city or airline") 
+
+    nav#third-nav 
+        ul 
+            li #[a(href="/") FLIGHTS ]
+            li #[a(href="/") TRAVEL GUIDE]
+            li #[a(href="/") TERMINAL   ]
+            li #[a(href="/") AIRLINE]
+            li #[a(href="/") PACKAGE]
+            li #[a(href="/") TRANSPORTATION ]
+            li #[a(href="/") SERVICES]
+            li #[a(href="/") HOTELS]
+            li #[a(href="/") DUTY FREE]
+            li #[a(href="/") CURRENCY EXCHANGE]
+            li #[a(href="/") AIRPORT MAP]
+
+        div.account
+            li #[a(href="/") SIGN IN ]
+            li #[a(href="/") SIGN UP ]
+
+
+    //second section 
+
+    section#second
+        
+
+        div.heading
+            h1 DOUBLE YOUR HOLIDAYS 
+            h4 Take a pause with Toledo stopover from only $69
+        button(class="btn")
+            |FIND OUT MORE
+
+        ul 
+            li #[a(href="/") FLIGHTS ]
+            li #[a(href="/") TRAVEL GUIDE]
+            li #[a(href="/") TERMINAL   ]
+            li #[a(href="/") AIRLINE]
+
+    //- third section
+
+    section#third
+        div.from
+            h6 FROM 
+            input(type="text" name="from" placeholder="Enter the Location")
+        div.to
+            h6 TO 
+            input(type="text" name="to" placeholder="Enter the Location")
+        div.btns
+            button ROUND TRIP
+            button ONE WAY
+
+        button(class="find-flight")
+            |FIND FLIGHT
+
+
+    //- fourth        
+
+    section#fourth-sec 
+
+        div.heading
+            h4 POPULAR TOURS 
+            h6 VIEW MORE TOURS...
+
+        div.cards
+            div.item
+                img(src="../static/img/tour.jpg", alt="")
+                div.content
+                     img(src="../static/img/download.png", alt="")
+                     h4 BARCELONA 
+                     h6 SPAIN 
+                     h6 5,aug 
+
+                button(class="btn")
+                    |FROM $199
+            div.item
+                img(src="../static/img/tour2.jpg", alt="")
+                div.content
+                     img(src="../static/img/download.png", alt="")
+                     h4 BARCELONA 
+                     h6 SPAIN 
+                     h6 5,aug 
+
+                button(class="btn")
+                    |FROM $199
+            div.item
+                img(src="../static/img/tour3.jpg", alt="")
+                div.content
+                     img(src="../static/img/download.png", alt="")
+                     h4 BARCELONA 
+                     h6 SPAIN 
+                     h6 5,aug 
+
+                button(class="btn")
+                    |FROM $199
+            div.item
+                img(src="../static/img/tour4.jpg", alt="")
+                div.content
+                     img(src="../static/img/download.png", alt="")
+                     h4 BARCELONA 
+                     h6 SPAIN 
+                     h6 5,aug 
+
+                button(class="btn")
+                    |FROM $199
+
+    //- fifth
+    section#fifth-sec 
+        div.heading
+            h4 BEST OF TOLEDO AIRPORT 
+            h6 MORE SERVICES AND ATTRACTION
+
+        div.cards
+            div.item
+                img(src="../static/img/shoping.jpg", alt="")
+                div.content
+                    h4 Shopping & Duty Free
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur neque nesciunt earum! Deleniti commodi amet reiciendis nemo. Assumenda, ullam quas.
+                    h6 Learn more
+            div.item
+                img(src="../static/img/food.jpg", alt="")
+                div.content
+                    h4 Food
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur neque nesciunt earum! Deleniti commodi amet reiciendis nemo. Assumenda, ullam quas.
+                    h6 Learn more
+            div.item
+                img(src="../static/img/cafe.jpg", alt="")
+                div.content
+                    h4 Cafe
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur neque nesciunt earum! Deleniti commodi amet reiciendis nemo. Assumenda, ullam quas.
+                    h6 Learn more
+    
+    section#sixth-sec
+        div.contain
+            div.news
+                h1 LATEST NEWS
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quae aut unde nulla alias voluptatibus impedit atque ab itaque, quidem, doloribus excepturi blanditiis tempore eum expedita asperiores? Placeat, totam praesentium?
+                h6 25 aug
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quae aut unde nulla alias voluptatibus impedit atque ab itaque, quidem, doloribus excepturi blanditiis tempore eum expedita asperiores? Placeat, totam praesentium?
+                h6 25 aug
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quae aut unde nulla alias voluptatibus impedit atque ab itaque, quidem, doloribus excepturi blanditiis tempore eum expedita asperiores? Placeat, totam praesentium?
+                h6 25 aug
+                
+                h3 More News
+            div.contact
+                h1 CONTACT US 
+                div.item
+                    
+                    h5 Airport Information
+                    h2 +91-9876543210
+                    h6 info@gmail.com
+                div.item
+                   
+                    h5 Airport Information
+                    h2 +91-9876543210
+                    h6 info@gmail.com
+                div.item
+                   
+                    h5 Airport Information
+                    h2 +91-9876543210
+                    h6 info@gmail.com
+                h3 Contact Us
+
+    section#seventh-sec 
+        div.logo
+            img(src="../static/img/logo.jpg", alt="logo")
+        div.name
+                h1 TOLEDO 
+                h4 AIRPORT 
+        ul 
+            li #[a(href="/") FLIGHTS ]
+            li #[a(href="/") TRAVEL GUIDE]
+            li #[a(href="/") TERMINAL   ]
+            li #[a(href="/") AIRLINE]
+            li #[a(href="/") PACKAGE]
+            li #[a(href="/") TRANSPORTATION ]
+            li #[a(href="/") SERVICES]
+        
+    script
+      include ../static/index.js
